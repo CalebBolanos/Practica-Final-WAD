@@ -17,12 +17,12 @@
 
         <title>Ejercicio3</title>
     </head>
-    <body>
+    <body style="display: flex; align-items: center; padding-top: 40px; padding-bottom: 40px; background-color: #f5f5f5;">
         <div class="container">
-            <main class="form-signin">
+            <main class="form-signin" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12); background-color: white;">
                 <div class="p-5">
                     <form method="POST" action="ProcesarInicioSesion">
-                        <h1 class="h3 my-3 fw-normal">Iniciar Sesión</h1>
+                        <h1 class="h3 my-3 fw-normal">Práctica Final - Iniciar Sesión</h1>
 
                         <div class="form-floating">
                             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="name@example.com" >
